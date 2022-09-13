@@ -20,13 +20,7 @@ class MainActivity : BaseActivity() {
     }
 
     override fun setupEvents() {
-
-    }
-
-    override fun setValues() {
-        mPagerAdapter = MainPagerAdapter(this)
-        binding.mainViewPager.adapter = mPagerAdapter
-
+        //마ㅓ밎
         binding.mainViewPager.registerOnPageChangeCallback(
             object : ViewPager2.OnPageChangeCallback(){
                 override fun onPageSelected(position: Int) {
@@ -48,6 +42,11 @@ class MainActivity : BaseActivity() {
             }
             return@setOnItemSelectedListener true
         }
+    }
+
+    override fun setValues() {
+        mPagerAdapter = MainPagerAdapter(this)
+        binding.mainViewPager.adapter = mPagerAdapter
 
     }
 }

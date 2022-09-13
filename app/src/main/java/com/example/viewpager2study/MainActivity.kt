@@ -23,6 +23,7 @@ class MainActivity : BaseActivity() {
     override fun setupEvents() {
         //확인용이다
         Log.d("","")
+
     }
 
     override fun setValues() {

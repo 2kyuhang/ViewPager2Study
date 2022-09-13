@@ -29,6 +29,7 @@ class MainActivity : BaseActivity() {
         mPagerAdapter = MainPagerAdapter(this)
         binding.mainViewPager.adapter = mPagerAdapter
         Log.d("","되돌아옴")
+        Log.d("","다시 저장 가능?")
         binding.mainViewPager.registerOnPageChangeCallback(
             object : ViewPager2.OnPageChangeCallback(){
                 override fun onPageSelected(position: Int) {

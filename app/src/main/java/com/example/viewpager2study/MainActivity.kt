@@ -2,6 +2,7 @@ package com.example.viewpager2study
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.databinding.DataBindingUtil
 import androidx.viewpager2.widget.ViewPager2
 import com.example.viewpager2study.adapters.MainPagerAdapter
@@ -20,7 +21,8 @@ class MainActivity : BaseActivity() {
     }
 
     override fun setupEvents() {
-
+        //확인용이다
+        Log.d("","")
     }
 
     override fun setValues() {

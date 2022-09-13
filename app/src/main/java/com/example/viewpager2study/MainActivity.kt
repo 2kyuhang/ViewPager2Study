@@ -29,7 +29,7 @@ class MainActivity : BaseActivity() {
     override fun setValues() {
         mPagerAdapter = MainPagerAdapter(this)
         binding.mainViewPager.adapter = mPagerAdapter
-
+        Log.d("","")
         binding.mainViewPager.registerOnPageChangeCallback(
             object : ViewPager2.OnPageChangeCallback(){
                 override fun onPageSelected(position: Int) {
